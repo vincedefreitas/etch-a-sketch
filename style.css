@@ -5,9 +5,14 @@
 
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: red;
+    font-family: 'Pangolin', cursive;
+    color: yellow;
+    border: 2px solid black;
 }
 
 .container {
@@ -17,9 +22,8 @@ body {
 }
 
 .square {
-    display: flex;
-    justify-content: center;
     border: 2px solid black;
     height: 20px;
     width: 20px;
+    background-color: white;
 }
