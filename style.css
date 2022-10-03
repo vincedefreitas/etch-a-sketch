@@ -11,7 +11,11 @@ body {
     background-color: red;
     font-family: 'Pangolin', cursive;
     color: yellow;
-    border: 2px solid black;
+    height: 700px;
+}
+
+.buttons {
+    display: flex;
 }
 
 .container {
